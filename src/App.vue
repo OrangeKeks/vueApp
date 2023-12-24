@@ -1,6 +1,6 @@
 <script setup>
-import Header from "./components/Header.vue"
-import GameCard from "./components/GameCard.vue";
+import Head from "./components/Head.vue"
+
 import { RouterView } from "vue-router";
 
 
@@ -8,8 +8,8 @@ import { RouterView } from "vue-router";
 
 <template>
   <div class="app"> 
-      <Header/>
-      <GameCard/>
+      <Head/>
+
       <RouterView/>
 
   </div>
@@ -17,7 +17,7 @@ import { RouterView } from "vue-router";
 </template>
 
 <style scoped>
-.app{
+.app{                           
   width: 100%;
   min-height: 100vh;
   background: #2323b3;

@@ -1,0 +1,27 @@
+<template>
+<header>
+ <router-link to="/main">Main</router-link>
+ <router-link to="/strategy">Strategy</router-link>
+ <router-link to="/rpg">RPG</router-link>
+ <router-link to="/shooter">Shooter</router-link>
+ <router-link to="/royale">Royale</router-link>
+ <router-link to="/fantasy">Fantasy</router-link>
+</header>
+</template>
+<style scoped>
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #aaa;
+    font-size: 30px;
+    background: #32383e;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.router-link-active{
+    color: white;
+}
+</style>
