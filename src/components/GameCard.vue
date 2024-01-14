@@ -34,7 +34,7 @@ defineProps({
             <h4>{{game.release_date}}</h4>
 
         </nav>
-        <router-link :to="{name: 'detail', params: {id: game.id}}"></router-link>
+        <router-link :to="{name: 'detail', params: {id: game.id}}">Подробнее</router-link>
     </div>
         
 </template>
